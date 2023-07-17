@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- -----font awesome icons----- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- -----style----- -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <!-- -----header design----- -->
+
+    <header id="header" class="header">
+        <a href="#" class="logo">
+            <h1>SHIVENDRA</h1><span>SINGH</span>
+        </a>
+
+        <nav id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+            <div id="darkMode" style="color:black"><i id="symbol" onclick="changeColor()"
+                    class="fa-regular fa-moon"></i>
+            </div>
+
+        </div>
+        <div id="menu-icon" class="fa-solid fa-bars"></div>
+
+
+    </header>
+
+    <!-- -----home section----- -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Shivendra Singh</h1>
+            <h3>A Frontend Developer</h3><br>
+            <p>As a frontend developer, my mission is to enable people and companies to connect with their audiences through engaging, interactive, and user-friendly digital interfaces that promote growth.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/singhshivendra8384"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/its_shivin_1209/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/shivin1209?t=j_LG8cUkq3XCt-LVnmYSTQ&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/in/shivendrasingh7055"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1aOW1fbbXLIV92eo6AFkEksTQKU3-YH0_/view?usp=drivesdk" class="btn">Download CV</a>
+
+        </div>
+    
+        <div class="home-img">
+            <img id="image" src="./photo.png" alt="">
+        </div>
+    </section>
+
+    <!-- -----about section----- -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img id="a-image" src="./photo.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me!</span></h2>
+            <h3>Hi, I'm Here To Help Your Next Project!</h3>
+            <p>Hi, I'm Shivendra, a frontend developer with 6 months of training creating beautiful, responsive, and user-friendly websites and web applications. I specialize in HTML, CSS, JavaScript, and have a passion for creating digital experiences that delight users and drive business results.As a frontend developer, I believe that good design is more than just aesthetics - it's about creating interfaces that are intuitive, accessible, and enjoyable to use. I strive to create websites and applications that are both visually appealing and highly functional, using the latest techniques and best practices in the industry.</p>
+            <a href="#contact" class="btn">Hire Me!</a>
+        </div>
+    </section>
+
+    <!-- -----sevices section----- -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services!</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Design</h3>
+                <p>Creating and developing user-friendly, aesthetically pleasing, and intuitive websites with an emphasis on delivering a great user experience. These services could include responsive design, content generation, search engine optimisation (SEO), search engine marketing (SEM), website management and support.</p>
+           
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Analytics</h3>
+                <p>The collection, measurement, and analysis of website data to improve website performance, user experience, and business outcomes. These services may include tracking website traffic, user behavior, conversion rates, and other metrics to inform decision-making and improve website effectiveness.</p>
+               
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Digital Marketing</h3>
+                <p>It entails using a variety of online platforms and channels, such as social media marketing, to promote a company or product. Businesses may develop their brand and revenue in the digital age by using digital marketing services to boost their online exposure, produce more leads and increase sales.</p>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- -----contact section----- -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- -----footer design----- -->
+
+    <footer>
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by <b>Shivendra Singh</b> | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-circle-arrow-up"></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <!-- -----script----- -->
+    <script src="./script.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+</body>
+
+</html>
