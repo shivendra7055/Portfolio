@@ -106,7 +106,7 @@ ScrollReveal({
 reset: true,
 distance: '80px',
 duration:2000,
-delay:200
+delay:2000
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
